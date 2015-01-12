@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5 FORM Elements</title>
+</head>
+
+<body>
+<fieldset>
+<legend>Student Information</legend>
+<h1>Kobi University</h1>
+<img src="./kb.jpg" alt="W3Schools.com" width="104" height="142"> 
+<form action="student.php" method="get">
+
+<label>Name of Candidate: &nbsp</label>
+<input type="text" 
+id="Name" 
+name="Name"
+placeholder="Name of Candidate"
+autofocus="autofocus"
+tabindex=2/><br/><br/>
+
+<label>Age: &nbsp</label>
+<select>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+</select><br/><br/>
+
+<label>Course Applied For: &nbsp</label>
+<input type="text" 
+name="Course"
+placeholder="Course Applied For"
+tabindex=1
+/><br/><br/>
+
+<label>University Enrollment Number: &nbsp</label>
+<input type="text" name="Enrollment" placeholder="University Enrollment Number" tabindex=3/><br/><br/>
+
+<label>Name of Institution: &nbsp</label>
+<input type="text" name="Institution" value="Kobi University"/><br/><br/>
+
+<label>Course Pursuing presently : &nbsp</label>
+<input type="text" name="Pursuing" placeholder="Course Pursuing presently"/><br/><br/>
+
+<label>Roll No.: &nbsp</label>
+<input type="text" name="RollNO" placeholder="Enter Roll No"/><br/><br/>
+
+<label>Nationality: &nbsp</label>
+<input type="text" name="Nationality" placeholder="Enter Nationality"/><br/><br/>
+
+<label>Enter Password: &nbsp</label>
+<input type="password" name="password"/><br/><br/>
+
+<label>Sports: &nbsp</label><br/>
+<input type="checkbox" name="JB1"/>Football<br/>
+<input type="checkbox" name="JB2"/>Cricket<br/><br/>
+
+<label>Gender: &nbsp</label><br/>
+<input type="radio" name="gender"/>Male<br/>
+<input type="radio" name="gender"/>Female<br/><br/>
+
+<label>Brother's Name: &nbsp</label>
+<input type="text" name="Enter brother Name" placeholder="Enter Brother Name" disabled=disabled/><br/><br/>
+
+<label>Interest: &nbsp</label><br/>
+<input list="Interests">
+<datalist>
+<option value="Playing Games">
+<option value="Watching Movies">
+<option value="Programming">
+</datalist><br/><br/>
+
+<button type="submit">Save</button><br/>
+<button type="button">click me!</button><br/>
+<button type="reset">Reset</button><br/>
+
+</form>
+</fieldset>
+</body>
